@@ -7,9 +7,8 @@ namespace propgram
     {
         public static void Main(string[] args)
         {
-            // added new branch 
-            // added new line to test commit
             MultipleInheritance.PerformInheritance();
+            Overloading.PerformOpOverloading();
         }
     }
 
