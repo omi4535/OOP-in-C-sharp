@@ -176,7 +176,8 @@ namespace OOP_in_C_sharp
 
             dev.WriteCode();
             dev.FixBug();
-            dev.GetEmpDetails();
+            dev.GetEmpDetails(); 
+
 
             tester.ExecuteTest();
             tester.WriteTestCases();
