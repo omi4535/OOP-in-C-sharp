@@ -9,6 +9,7 @@ namespace propgram
         {
             MultipleInheritance.PerformInheritance();
             Overloading.PerformOpOverloading();
+            Overloading.performMethodOverLoading();
         }
     }
 
