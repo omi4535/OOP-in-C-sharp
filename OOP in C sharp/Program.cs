@@ -10,11 +10,10 @@ namespace propgram
             MultipleInheritance.PerformInheritance();
             Overloading.PerformOpOverloading();
             Overloading.performMethodOverLoading();
-
             WorkIsGoingOn d1 = new WorkIsGoingOn(new Delagetes().WorkIsGoingOn);
             WorkIsGoingCompleted d2 = new WorkIsGoingCompleted(new Delagetes().WorkIsGoingCompleted);
             Delagetes.StartWork(5, "study", d1, d2);
-
+            MethodHiding.PerformMethodHiding();
         }
     }
 
