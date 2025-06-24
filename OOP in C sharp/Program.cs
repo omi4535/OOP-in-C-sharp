@@ -14,6 +14,8 @@ namespace propgram
             WorkIsGoingCompleted d2 = new WorkIsGoingCompleted(new Delagetes().WorkIsGoingCompleted);
             Delagetes.StartWork(5, "study", d1, d2);
             MethodHiding.PerformMethodHiding();
+            Generic_Delegates obj = new Generic_Delegates();
+            obj.PerformGenericDelegates();
         }
     }
 
